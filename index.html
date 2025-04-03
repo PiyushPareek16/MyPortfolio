@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Creative Portfolio</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="teal darken-3">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">My Portfolio</a>
+            <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#Certification">Certification</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Mobile Navigation -->
+    <ul class="sidenav" id="mobile-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+
+<!-- About Section -->
+<section id="about" class="section about-section teal lighten-5">
+  <div class="container center">
+      <img src="Asset/img/my-photo.jpg" alt="Piyush Pareek" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%; border: 4px solid #004d40;">
+      <h2>Hi, I'm <span class="teal">Piyush Pareek.</span></h2>
+      <h5>A Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving complex and challenging real-world problems.</h5>
+  </div>
+
+<!-- Social Buttons Section -->
+<style>
+  .icon-btn {
+      font-size: 18px; /* Increase font size */
+      padding: 12px 25px; /* Add more padding */
+      width: 180px; /* Increase button width */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+
+  .linkedin {
+      background-color: #0077b5;
+      color: white;
+  }
+
+  .github {
+      background-color: #333;
+      color: white;
+  }
+
+  .icon-btn i {
+      font-size: 22px; /* Increase icon size */
+  }
+</style>
+
+<div class="social">
+  <!-- LinkedIn Button -->
+  <a href="https://www.linkedin.com/in/piyush-pareek-375a782b5/" target="_blank">
+      <button class="icon-btn linkedin">
+          <i class="fab fa-linkedin"></i> LinkedIn
+      </button>
+  </a>
+
+  <!-- GitHub Button -->
+  <a href="https://github.com/Piyushpareek7/" target="_blank">
+      <button class="icon-btn github">
+          <i class="fab fa-github"></i> GitHub
+      </button>
+  </a>
+</div>
+
+
+</section>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="section scrollspy">
+        <h3 class="page-title white-text teal">Experience / Position of Responsibility</h3>
+            <h4 class="center teal-text text-darken-3">Experience / Position of Responsibility</h4>
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card hoverable">
+                        <div class="card-content">
+                            <!--<i class="fa-solid fa-briefcase card-icon teal-text"></i> -->
+                            <h5>Volunteer, Placement Cell</h5>
+                            <p>Symbiosis Institute of Technology</p>
+                            <p class="light">•	Assisted in coordinating recruitment drives, managing student-employer interactions, and facilitating smooth placement processes. Contributed to data management and event organization to enhance placement opportunities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card hoverable">
+                        <div class="card-content">
+                            <!--<i class="fa-solid fa-briefcase card-icon teal-text"></i>-->
+                            <h5>Music Society Member</h5>
+                            <p>Symbiosis Music Society</p>
+                            <p class="light">•	"Member of College Music Society - Actively participated in organizing and performing in various college events and competitions. Contributed to planning and promoting musical events, helping to increase student engagement and participation."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+      
+            <!-- Deepfake Detection Project -->
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img alt="Deepfake Detection" src="Asset\img\Deepfake.jpg" style="height: 100%; width: 100%" class="activator" />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline">Deepfake Detection<i class="mdi-navigation-more-vert right"></i></span>
+                  <p>A model to identify and analyze deepfake content in videos.</p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+                  <ul>
+                    <li><b>Tools:</b> Python, TensorFlow, OpenCV, CNN</li>
+                    <li>Extracted features from video frames using Convolutional Neural Networks.</li>
+                    <li>Achieved 85% accuracy in detecting manipulated content.</li>
+                    <li>Tested on a dataset of real and fake videos, focusing on facial anomalies.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+             <!-- Question Paper Generator Project -->
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img alt="Question Paper Generator" src="Asset\img\QPG.jpg" style="height: 100%; width: 100%" class="activator" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator teal-text hoverline">Question Paper Generator<i class="mdi-navigation-more-vert right"></i></span>
+            <p>A system to automate the creation of custom question papers.</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+            <ul>
+              <li><b>Tools:</b> Python, Django, SQL, NLP</li>
+              <li>Implemented text-based algorithms to generate questions from syllabus topics.</li>
+              <li>Allows teachers to choose difficulty levels and question types.</li>
+              <li>Generated over 500 unique question papers using structured data.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Student Management System Project -->
+      <div class="col s12 m6 l4">
+        <div class="card medium">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img alt="Student Management System" src="Asset\img\SMS.jpg" style="height: 100%; width: 100%" class="activator" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator teal-text hoverline">Student Management System<i class="mdi-navigation-more-vert right"></i></span>
+            <p>An application to manage student data and academic records efficiently.</p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text"><small>Accomplishments</small><i class="mdi-navigation-close right"></i></span>
+            <ul>
+              <li><b>Tools:</b> MERN stack, REST API, MongoDB</li>
+              <li>Enables student registration, grade management, and attendance tracking.</li>
+              <li>Provides a dashboard for teachers to monitor student performance.</li>
+              <li>Secure user authentication for teachers and students.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <!-- Languages and Databases -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Languages and Databases</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                    <img alt="" src="Asset\img\javalogo.png" class="responsive-img" />Java
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="Asset\img\c++logo.png" class="responsive-img" />C++
+                  </div>
+                  <div class="col s4 m2">
+                    <img alt="" src="Asset\img\clogo.png" class="responsive-img" />C
+                  </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\python-logo-1-300x300.jpg" class="responsive-img" />Python
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\html5-300x300.jpg" class="responsive-img" />HTML5
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\css3-300x300.jpg" class="responsive-img" />CSS3
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Libraries -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Libraries</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\opencv-logo-1-500x500.jpg " class="responsive-img" />OpenCV
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Frameworks -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Frameworks</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\django-logo.webp" class="responsive-img" />Django
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\flask-logo.png" class="responsive-img" />Flask
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\keras-logo.png" class="responsive-img" />Keras
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\tensorflow-logo-1.png" class="responsive-img" />TensorFlow
+                </div>
+                <div class="col s4 m2">
+                  <img alt="" src="Asset\img\python-logo-1-300x300.jpg" class="responsive-img" />PyTorch
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+            <!-- Certification Section -->
+            
+            <section id="Certification" class="section scrollspy">
+              <h3 class="page-title white-text teal">Certification</h3>
+              <div class="container">
+                <div class="row">
+                  <div class="card">
+                    <div class="card-content">
+                        <img alt="Django Logo" src="Asset\img\Screenshot 2025-02-16 154511.png" class="responsive-img" /><p><h5>Regression and Classification</p></div></h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+
+    <!-- Education Section -->
+    <section id="education" class="section scrollspy">
+        <h3 class="page-title white-text teal">Education</h3>
+        <div class="container">
+          <div class="row">
+            <!-- Education -->
+              
+            </div>
+            <div class="col s12 m6 l6">
+              <div class="card">
+                <div class="card-content">
+                  <p>
+                    <span class="card-title teal-text">Symbiosis Institute of Technology</span>
+  
+                  </p>
+                  <p class="brown-text">Pune, India</p>
+                  <p>
+                    <b>Degree: </b>Bachelor of Technology in Computer Science
+                    <br>
+                  </p>
+  
+                  <ul>
+                    <p>
+                      <b>Relevant Courseworks:</b>
+                    <ul>
+                      <li>Data Structures and Algorithms</li>
+                      <li>Database Management Systems</li>
+                      <li>Operating Systems</li>
+                      <li>Machine Learning</li>
+                    </ul>
+                    </p>
+  
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+            <h4 class="teal-text text-darken-3">Contact Me</h4>
+            <p>Feel free to reach out to me!</p>
+            <a href="piyush14802m@gmail.com" class="btn-large teal darken-3">Email Me</a>
+        </div>
+    </section>
+
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        // Initialize Sidenav
+        document.addEventListener('DOMContentLoaded', function() {
+            const elems = document.querySelectorAll('.sidenav');
+            M.Sidenav.init(elems);
+        });
+    </script>
+</body>
+</html>
